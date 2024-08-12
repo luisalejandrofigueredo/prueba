@@ -1,0 +1,23 @@
+body{
+  background-color: #8a98eb; /* Example using a blue color */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card{
+    width: 300px;
+    align-content: space-around;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 6px rgb(100 100 100);
+}
+
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }

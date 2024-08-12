@@ -1,0 +1,30 @@
+<div class="mat-elevation-z2">
+  <table mat-table class="full-width-table" matSort aria-label="Skills">
+    <!-- Id Column -->
+    <ng-container matColumnDef="image">
+      <th mat-header-cell *matHeaderCellDef>Logo</th>
+      <td mat-cell *matCellDef="let row"> <img [attr.width]="row.width" style="padding-right: 1%;"
+          src="{{row.image}}" /></td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell style="font-size: large;" *matHeaderCellDef mat-sort-header>Name</th>
+      <td mat-cell style="font-size: large;" *matCellDef="let row">{{row.name}}</td>
+    </ng-container>
+
+    <!-- Link Column -->
+    <ng-container matColumnDef="link">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Link</th>
+      <td mat-cell *matCellDef="let row"> <a class="linkTo" [href]="row.link"><mat-icon
+            [matTooltip]="row.link">link</mat-icon></a></td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator #paginator class="paginator" [length]="dataSource.data.length" [pageIndex]="0"
+    [pageSize]="10" aria-label="Select page">
+  </mat-paginator>
+</div>

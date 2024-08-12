@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@use "../m3-theme";
+@use '@angular/material' as mat;
+@import '@angular/cdk/overlay-prebuilt.css';
+
+:root {
+  @include mat.core-theme(m3-theme.$theme-dark);
+  @include mat.all-component-themes(m3-theme.$theme-dark);
+  @include mat.color-variants-backwards-compatibility(m3-theme.$theme-dark);
+  @media (prefers-color-scheme: light) {
+    // Use the `-color` mixins to only apply color styles without reapplying the same
+    // typography and density styles.
+    @include mat.core-color(m3-theme.$theme-light);
+    @include mat.button-color(m3-theme.$theme-light);
+  }
+}

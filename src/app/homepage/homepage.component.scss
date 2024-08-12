@@ -1,0 +1,109 @@
+.container {
+  display: grid // Use flexbox for easy centering
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  border-radius: 50%;
+  margin-right: 25px;
+  width: 40px;
+}
+
+@media (max-width: 430px) {
+  h1.mat-h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1.mat-h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  h1.mat-h1 {
+    font-size: 1.8rem;
+  }
+}
+
+h2 {
+  margin: 0%;
+  text-shadow: 2px 2px #8a8888;
+}
+
+p {
+  margin: 0%;
+}
+
+.column {
+  margin: auto;
+  display: flex;
+  flex-direction: column
+}
+
+.card {
+  width: 100%;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 4px 4px 6px rgb(204, 204, 204);
+  border-radius: 10px;
+  background-color: rgb(213 186 255);;
+}
+
+.card:hover {
+  scale: 1.2;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rowContacts {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  width: 120px;
+  box-shadow: 4px 4px 6px rgb(204, 204, 204);
+}
+
+.columnPhone {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.example-action-buttons {
+  padding-bottom: 20px;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-mdc-form-field+.mat-mdc-form-field {
+  margin-left: 8px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.rowTitulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

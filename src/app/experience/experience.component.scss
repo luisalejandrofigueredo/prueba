@@ -1,0 +1,39 @@
+body {
+  background-color: #8a98eb;
+  /* Example using a blue color */
+}
+
+.card {
+  width: 300px;
+  align-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: 4px 4px 6px rgb(100 100 100);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: 400;
+  text-shadow: 4px 4px 6px rgb(100 100 100);
+  ;
+}
+
+.gradient {
+  background: rgb(242, 199, 247);
+  background: linear-gradient(90deg, rgba(242, 199, 247, 1) 0%, rgba(135, 68, 131, 1) 52%, rgba(0, 212, 255, 1) 100%);
+}
+
+.first-column {
+  padding-left: 50px;
+  background-color: rgb(181, 135, 255);
+}
+
+.last-column{
+  padding-left: 100px; 
+  background-color:  rgb(181, 135, 255);
+}
