@@ -1,14 +1,14 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar i18n>Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item  [routerLink]="['home']"><mat-icon>home</mat-icon></a>
-      <a mat-list-item  [routerLink]="['skills']">Skills</a>
-      <a mat-list-item  [routerLink]="['degrees']">Degrees</a>
-      <a mat-list-item  [routerLink]="['experience']">Experience</a>
-      <a mat-list-item  [routerLink]="['ng-gd']">Ng-gd library</a>
-      <a mat-list-item  [routerLink]="['about']">About</a>
+      <a mat-list-item  [routerLink]="['skills']" i18n>Skills</a>
+      <a mat-list-item  [routerLink]="['degrees']" i18n>Degrees</a>
+      <a mat-list-item  [routerLink]="['experience']" i18n>Experience</a>
+      <a mat-list-item  [routerLink]="['ng-gd']" i18n>Ng-gd library</a>
+      <a mat-list-item  [routerLink]="['about']" i18n>About</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -18,10 +18,10 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       }
-      <div class="right">
+      <div class="right">  <a href="https://luisalejandrofigueredoen.web.app/"><img width="64px" src="eeuu.png"></a><a href="https://luisalejandrofigueredoca-acbed.web.app/"><img width="78px" src="esp.png"></a>
         <span class="slide-span" ><mat-icon>light_mode</mat-icon></span>
-        <mat-slide-toggle class="slide.toggle"
-          [formControl]="slide_toggle"></mat-slide-toggle>
+        <span class="slide-toggle"> <mat-slide-toggle 
+          [formControl]="slide_toggle"></mat-slide-toggle></span>
         <span class="slide-span"><mat-icon>dark_mode</mat-icon></span>
       </div>
     </mat-toolbar>
