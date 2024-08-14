@@ -208,6 +208,54 @@
           <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8642445555713453888" datatype="html">
+        <source>First page</source>
+        <target>Primera página</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6784758141439994527" datatype="html">
+        <source>Last page</source>
+        <target>Última página</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8939587804990976924" datatype="html">
+        <source>Items per page</source>
+        <target>Items por página</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3337301694210287595" datatype="html">
+        <source>Next page</source>
+        <target>Próxima página</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3629960544875360046" datatype="html">
+        <source>Previous page</source>
+        <target>Página anterior</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5881876145178332550" datatype="html">
+        <source>of</source>
+        <target>de</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/table-skills/table-skills.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
