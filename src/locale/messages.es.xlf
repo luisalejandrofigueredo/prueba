@@ -256,6 +256,21 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5201283688161508365" datatype="html">
+        <source>Systems analyst</source>
+        <target>Analista en sistemas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6674739969084449289" datatype="html">
+        <source>Desarrollador full stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/homepage/homepage.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
